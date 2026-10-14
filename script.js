@@ -2,33 +2,34 @@ let homeScore = document.getElementById("home-score")
 let GuestScore = document.getElementById("guest-score")
 let clearButton = document.getElementById("clearBtn") 
 
-let score = 0
+let home = 0
+let away = 0
 
 //HOME
 function HomeaddOne() {
-    score += 1
-    homeScore.textContent = score
+    home += 1
+    homeScore.textContent = home
 }
 function HomeaddTwo() {
-    score += 2
-    homeScore.textContent = score
+    home += 2
+    homeScore.textContent = home
 }
 function HomeaddThree() {
-    score += 3
-    homeScore.textContent = score
+    home += 3
+    homeScore.textContent = home
 }
 //GUEST
 function GuestaddOne() {
-    score += 1
-    GuestScore.textContent = score
+    away += 1
+    GuestScore.textContent = away
 }
 function GuestaddTwo() {
-    score += 2
-    GuestScore.textContent = score
+    away += 2
+    GuestScore.textContent = away
 }
 function GuestaddThree() {
-    score += 3
-    GuestScore.textContent = score
+    away += 3
+    GuestScore.textContent = away
 }
 
 
