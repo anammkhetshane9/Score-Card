@@ -38,5 +38,6 @@ function GuestaddThree() {
 function clearScore() {
     GuestScore.textContent = 0
     homeScore.textContent = 0
-    score = 0
+    away = 0
+    home = 0
 }
